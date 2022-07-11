@@ -2,6 +2,8 @@ import * as React from "react"
 import imagee from '../images/middlefinger.jpg'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import { StaticImage } from "gatsby-plugin-image"
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -91,7 +93,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <Layout pageTitle={'home'}>
         {/* <img src={imagee} alt="this is a hand image" /> */}
-
+        <StaticImage src="../images/middlefinger.jpg" alt="this is an image of a hand"></StaticImage>
       </Layout>
     </main>
   )
