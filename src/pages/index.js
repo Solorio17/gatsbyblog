@@ -91,7 +91,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <Layout pageTitle={'home'}>
+      <Layout pageTitle={'Home Page'}>
         {/* <img src={imagee} alt="this is a hand image" /> */}
         <StaticImage src="../images/middlefinger.jpg" alt="this is an image of a hand"></StaticImage>
       </Layout>
